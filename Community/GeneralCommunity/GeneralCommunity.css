@@ -1,0 +1,10 @@
+.comment-input::placeholder {
+    color: #E86924; /* Placeholder text color */
+}
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Vertically center the modal */
+}
+

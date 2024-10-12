@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.all {
+    display: flex;
+    width: 100%;
+}
+
+.form-section {
+    flex: 0.7; 
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.image-section {
+    flex: 1.1; 
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #f8f9fa;
+}
+
+.image-section img {
+    max-width: 100%; 
+    height: auto;
+}
